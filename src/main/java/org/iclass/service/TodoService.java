@@ -14,5 +14,5 @@ public interface TodoService {
 	int modify(TodoDto todoDto);
 	long getCount();
 	PageResponseDTO<TodoDto> getList(PageRequestDTO pageDTO);
-	
+	/* ▲ 이거 PageResponseDTO 가 아니라 List임 */
 }
